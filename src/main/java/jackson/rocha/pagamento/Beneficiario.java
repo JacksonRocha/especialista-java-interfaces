@@ -6,7 +6,7 @@ public class Beneficiario {
     private String chavePix;
     private String contaBancaria;
 
-    public Beneficiario(String chavePix, String contaBancaria, String nome) {
+    public Beneficiario(String nome, String chavePix, String contaBancaria) {
         this.chavePix = chavePix;
         this.contaBancaria = contaBancaria;
         this.nome = nome;
