@@ -40,7 +40,7 @@ public class Beneficiario {
         return getChavePix() == null || getChavePix().isEmpty();
     }
 
-    public boolean naoPossuiContaBancaria(String contaBancaria) {
+    public boolean naoPossuiContaBancaria() {
         return getContaBancaria() == null || getContaBancaria().isEmpty();
     }
 
